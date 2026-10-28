@@ -1,0 +1,99 @@
+.DS{
+    padding: 30px;
+    /* text-align: center; */
+}
+
+/* ---------- HEADER ---------- */
+
+.DS-Header .DS-Title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    color: #1e3a8a;
+    font-weight: 700;
+}
+
+.DS-Header .DS-Subtitle{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #64748b;
+    margin-top: 8px;
+}
+
+/* ---------- BODY ---------- */
+
+.DS-Body{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+/* ---------- CARD SECTION ---------- */
+
+.Section{
+    margin-top: 10px;
+    width: 280px;
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    border-radius: 14px;
+    color: #1e293b;
+    box-shadow: 0 8px 20px rgba(30, 58, 138, 0.12);
+    transition: 0.3s ease;
+}
+
+.Section:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(30, 58, 138, 0.18);
+}
+
+/* ---------- TITLES (UNIFIED BLUE SYSTEM) ---------- */
+
+.Backend-Title{
+    color: red;
+    text-align: center;
+    padding: 8px;
+}
+
+.Frontend-Title{
+    color: blue;
+    text-align: center;
+    padding: 8px;
+}
+
+.Aptitude-Title{
+    color: green;
+    text-align: center;
+    padding: 8px;
+}
+
+.Placement-Title{
+    color: orangered;
+    text-align: center;
+    padding: 8px;
+}
+
+/* ---------- FOOTER BUTTON ---------- */
+
+.DS-Footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.DS-Footer .DS-Enroll-Button{
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    
+    transition: 0.3s ease;
+}
+
+.DS-Footer .DS-Enroll-Button:hover{
+    background: #0f2a66;
+    transform: scale(1.05);
+}

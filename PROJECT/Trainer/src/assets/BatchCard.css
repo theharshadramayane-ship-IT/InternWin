@@ -1,0 +1,77 @@
+.batch-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.batch-card {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #dbe3ee;
+  border-radius: 16px;
+  background: #ffffff;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  font-family: inherit;
+}
+
+.batch-card:hover {
+  border-color: #153243;
+  box-shadow: 0 10px 24px rgba(21, 50, 67, 0.08);
+  transform: translateY(-2px);
+}
+
+.batch-card-title {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+  color: #153243;
+}
+
+.batch-card-domain {
+  margin: 0 0 12px;
+  color: #5b7087;
+  font-size: 0.9rem;
+}
+
+.batch-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.batch-card-count {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eef4fb;
+  color: #153243;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.batch-card-meeting-status {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.batch-card-meeting-status.scheduled {
+  background: #e7f8ef;
+  color: #137333;
+}
+
+.batch-card-meeting-status.not-set {
+  background: #fff4e5;
+  color: #b06000;
+}
+
+.batch-card-description {
+  margin: 12px 0 0;
+  color: #64788b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

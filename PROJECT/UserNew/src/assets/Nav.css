@@ -1,0 +1,95 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    padding-top:70px; /* space for fixed navbar */
+}
+
+
+.Navbar{
+    position:fixed;
+    font-family:'Poppins',sans-serif;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background-color:#1e293b;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 60px;
+    z-index:1000;
+    box-shadow:0 2px 12px rgba(0,0,0,0.15);
+}
+
+
+.Navbar-Name{
+    font-size:24px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+/* MENU */
+.Navbar-Menu{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* React Router Links */
+.Navbar-Menu a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    font-weight:500;
+    transition:0.3s ease;
+    padding:6px 10px;
+}
+
+.Navbar-Menu a:hover{
+    color:#38bdf8;
+}
+
+/* BUTTON SECTION */
+.Navbar-Button{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+/* BUTTON STYLE */
+.Navbar-Button button{
+    padding:8px 18px;
+    font-size:14px;
+    border-radius:6px;
+    border:none;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+/* LOGIN BUTTON */
+.Navbar-Button-Login{
+    background:transparent;
+    border:1px solid #38bdf8;
+    color:#38bdf8;
+}
+
+.Navbar-Button-Login:hover{
+    background:#38bdf8;
+    color:#1e293b;
+}
+
+/* SIGNUP BUTTON */
+.Navbar-Button-Signin{
+    background:#2563eb;
+    color:white;
+}
+
+.Navbar-Button-Signin:hover{
+    background:#1d4ed8;
+}

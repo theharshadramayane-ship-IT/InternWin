@@ -1,0 +1,176 @@
+
+
+.Card-c1,
+.Card-c2,
+.Card-c3,
+.Card-c4,
+.Card-c5{
+    font-family:'Poppins',sans-serif;
+} 
+
+
+
+/* ================= HERO SECTION ================= */
+
+.Card-c1 {
+    padding: 40px;
+    background: linear-gradient(to bottom, #f8fafc, #ffffff);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Text section */
+.Card-c1 p {
+    font-size: 19px;
+    line-height: 1.9;
+    color: #475569;
+    display: block;
+    flex: 1;
+}
+
+/* Image */
+.Card-c1 img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ================= WHO WE ARE ================= */
+
+ .Card-c2{
+    width:65%;
+    margin:70px auto;
+    padding:50px 60px;
+    background:#ffffff;
+    border-radius:14px;
+    border:1px solid #e2e8f0;
+    box-shadow:0 15px 35px rgba(0,0,0,0.05);
+    text-align:center;
+}
+
+.Card-c2 h1{
+    color:#1e3a8a;
+    margin-bottom:18px;
+    font-size:32px;
+    font-weight: bold;
+}
+
+.Card-c2 p{
+    color:#64748b;
+    margin-bottom:20px;
+}
+
+.Card-c2 ul{
+    text-align:left;
+    max-width:520px;
+    margin:20px auto;
+    line-height:1.9;
+    color:#334155;
+} 
+
+
+
+/* ================= STATS SECTION ================= */
+
+ .Card-c3{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:60px 0;
+    background:#ffffff;
+}
+
+.Card-c31{
+    width:220px;
+    padding:35px;
+    text-align:center;
+    border-radius:12px;
+    background:white;
+    border:1px solid #e2e8f0;
+    transition:0.35s;
+}
+
+.Card-c31 h1{
+    font-size:36px;
+    color:#2563eb;
+    margin-bottom:8px;
+}
+
+.Card-c31 p{
+    color:#64748b;
+    font-weight:500;
+}
+
+.Card-c31:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,0.08);
+} 
+
+
+
+/* ================= MISSION SECTION ================= */
+
+.Card-c4{
+    padding:110px 20%;
+    text-align:center;
+    background:#387ed1;
+    color:white;
+}
+
+.Card-c4 h1{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.Card-c4 p{
+    opacity:0.9;
+    line-height:1.8;
+} 
+
+
+
+/* ================= VISION / MISSION / MENTORSHIP ================= */
+
+.Card-c5{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.Card-c51,
+.Card-c52,
+.Card-c53{
+    width:300px;
+    padding:40px 30px;
+    border-radius:14px;
+    background:white;
+    border:1px solid #e2e8f0;
+    transition:0.35s;
+}
+
+.Card-c5 p{
+    font-size:20px;
+    font-weight:600;
+    color:#1e3a8a;
+    margin-bottom:18px;
+}
+
+.Card-c5 ul{
+    text-align:left;
+    color:#475569;
+    line-height:1.9;
+}
+
+.Card-c51:hover,
+.Card-c52:hover,
+.Card-c53:hover{
+    transform:translateY(-12px);
+    box-shadow:0 25px 55px rgba(0,0,0,0.08);
+} 

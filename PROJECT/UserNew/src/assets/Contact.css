@@ -1,0 +1,79 @@
+/* Card Container */
+.Contact-Card {
+    width: 90%;
+    max-width: 750px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.Contact-heading {
+    text-align: center;
+    font-size: 26px;
+    color: #0d6efd;
+    margin-bottom: 25px;
+}
+
+/* Table Layout */
+.Contact-Table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 12px;
+}
+
+/* Labels */
+.Contact-Card label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Inputs, Select, Textarea (SCOPED ONLY) */
+.Contact-Card input,
+.Contact-Card select,
+.Contact-Card textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+/* Focus Effect */
+.Contact-Card input:focus,
+.Contact-Card select:focus,
+.Contact-Card textarea:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 6px rgba(13, 110, 253, 0.25);
+}
+
+/* Textarea */
+.Contact-Card textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Button */
+.Contact-Card button {
+    width: 100%;
+    padding: 12px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+/* Button Hover */
+.Contact-Card button:hover {
+    background: #084298;
+}
+

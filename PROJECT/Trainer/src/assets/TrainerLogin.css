@@ -1,0 +1,92 @@
+.trainer-login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f2f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trainer-login-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 360px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-login-card h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.trainer-login-card .subtitle {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+.login-error-alert {
+  background-color: #ffeef0;
+  color: #d63031;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #fab1a0;
+}
+
+.login-form-group {
+  margin-bottom: 18px;
+}
+
+.login-form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  color: #34495e;
+}
+
+.login-form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.login-form-group input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.btn-trainer-login {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.btn-trainer-login:hover {
+  background-color: #2980b9;
+}
+
+.btn-trainer-login:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}

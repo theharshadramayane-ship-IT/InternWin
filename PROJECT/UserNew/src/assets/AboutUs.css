@@ -1,0 +1,125 @@
+.AU-c1 {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+            background-color: rgb(254, 254, 182);
+            padding: 30px;
+            margin-top: 1000px;
+        }
+
+        /* CARD2 */
+        .AU-c2 {
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            margin: auto;
+            /* display: flex; */
+            width: 60%;
+            padding: 20px;
+            border: none;
+            border-radius: 5px;
+            color: black;
+            background-color: rgb(236, 236, 252);
+        }
+
+        /* CARD3 */
+        .AU-c3 {
+
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            /* align-items: center;
+            text-align: center; */
+            gap: 20px;
+
+        }
+
+        .AU-c31 {
+            position: relative;
+            width: 220px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform background-color linear;
+        }
+
+        .AU-c3 h1 {
+            color: blueviolet;
+        }
+
+        .AU-c31:hover {
+            transform: scale(1px);
+            background-color: beige;
+
+        }
+
+        /* CARD4 */
+        .AU-c4 {
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+            width: 90%;
+            background-color: rgb(229, 255, 229);
+        }
+
+        /* CARD5 */
+        .AU-c5 {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            /* align-items: center;
+            text-align: center; */
+            gap: 20px;
+        }
+        .AU-c5 p{
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        .AU-c51 {
+            width:30%;
+            background-color: rgb(255, 219, 239);
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .AU-c51 ul {
+            text-align: left;
+        }
+
+        .AU-c52 {
+            width:30%;
+            background-color: rgb(255, 219, 239);
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .AU-c52 ul {
+            
+            text-align: left;
+        }
+
+        .AU-c53 {
+            width:30%;
+            background-color: rgb(255, 219, 239);
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .AU-c53 ul {
+            
+            text-align: left;
+        }

@@ -1,0 +1,177 @@
+.Domain-Heading {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #387ed1;
+    margin: 30px 0;
+
+}
+
+
+.Domain-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+    padding: 40px 10px;
+    
+
+}
+
+
+.Domain-Card {
+    
+    background: #ffffff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 30px;
+    /* padding: 22px 18px; */
+    border-radius: 14px;
+    width : 30%;
+    color: #387ed1;
+    /* font-weight: 600; */
+    box-shadow: 0 6px 18px rgba(30, 58, 138, 0.12);
+    transition: all 0.3s ease;
+    position: relative;
+
+
+}
+
+.Domain-Card h2 {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+
+}
+
+.Domain-Card ul li {
+    margin-top: 5px;
+    /* list-style: none; */
+    text-align: left;
+    color: #64748b;
+}
+
+
+.Domain-Card:hover{
+    background-color: #EFEFD0;
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(30, 58, 138, 0.2);
+}
+
+.Domain-Card button {
+    margin-top: 15px;
+    background: #424B54;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: 'Poppins' sans-serif;
+    transition: all 0.3s ease;
+}
+
+
+.Domain-Card button:hover{
+    background: #0f2a66;
+    transform: scale(1.06);
+}
+/* --- 📅 Upcoming Schedules Section Styles --- */
+.Upcoming-Section-Wrapper {
+    max-width: 1200px;
+    margin: 50px auto 80px auto;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Upcoming-Schedule-Heading {
+    text-align: center;
+    font-weight: 700;
+    color: #387ed1;
+    margin-bottom: 5px;
+}
+
+.Upcoming-Schedule-Subtext {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+/* Responsive Wrapper for tables */
+.Upcoming-Table-Scrollbox {
+    width: 100%;
+    overflow-x: auto;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(30, 58, 138, 0.12);
+}
+
+.Upcoming-Data-Table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 800px; /* Ensures text doesn't squeeze on tiny mobile viewports */
+}
+
+.Upcoming-Data-Table th, 
+.Upcoming-Data-Table td {
+    padding: 18px 20px;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.95rem;
+}
+
+.Upcoming-Data-Table th {
+    background-color: #f8fafc;
+    color: #475569;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.Upcoming-Data-Table tr:hover {
+    background-color: #fafbfd;
+}
+
+/* Mini Visual Tags */
+.upcoming-tech-badge {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.upcoming-time-tag {
+    color: #15803d;
+    font-weight: 500;
+}
+
+.upcoming-date-highlight {
+    color: #b91c1c;
+    font-weight: 600;
+}
+
+.upcoming-empty-msg {
+    text-align: center;
+    padding: 50px !important;
+    color: #94a3b8;
+    font-style: italic;
+}
+
+/* Call to action element button */
+.upcoming-enquire-btn {
+    background: #424B54;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upcoming-enquire-btn:hover {
+    background: #0f2a66;
+    transform: scale(1.05);
+}
